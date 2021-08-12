@@ -1,4 +1,4 @@
-package wniemiec.util.io.path;
+package wniemiec.io.java;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -13,7 +13,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import wniemiec.util.io.manager.TextFileManager;
+import wniemiec.io.java.TextFileManager;
 
 public class ArgumentFileTest {
 
@@ -33,7 +33,7 @@ public class ArgumentFileTest {
 	static {
 		Path testsFolder = Path.of(".", "src", "test", "java");
 
-		THIS_FOLDER = testsFolder.resolve(Path.of("wniemiec", "util", "io", "path"));
+		THIS_FOLDER = testsFolder.resolve(Path.of("wniemiec", "io", "java"));
 		
 		WORKING_DIRECTORY = Path.of(System.getProperty("java.io.tmpdir"));
 		

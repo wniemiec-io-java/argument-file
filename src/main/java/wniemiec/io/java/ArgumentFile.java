@@ -17,11 +17,6 @@ import java.util.List;
 
 /**
  * Responsible for generating argument files.
- * 
- * @author		William Niemiec &lt; williamniemiec@hotmail.com &gt;
- * 
- * @see			https://docs.oracle.com/javase/9/tools/java.htm
- * #JSWOR-GUID-4856361B-8BFD-4964-AE84-121F5F6CF111
  */
 public class ArgumentFile {
 	
@@ -66,9 +61,6 @@ public class ArgumentFile {
 	 * 
 	 * @throws 		IOException If an error occurs while writing the file
 	 * @throws		IllegalArgumentException If paths is null
-	 * 
-	 * @see			https://docs.oracle.com/javase/9/tools/java.htm
-	 * #JSWOR-GUID-4856361B-8BFD-4964-AE84-121F5F6CF111
 	 */
 	public Path create(List<Path> paths) throws IOException {
 		if (paths == null)

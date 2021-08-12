@@ -41,7 +41,7 @@
 
   <distributionManagement>
     <repository>
-      <id>github-wniemiec-io-java-argument-file</id>
+      <id>github-wniemiec-io-java</id>
       <name>GitHub wniemiec-io-java Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/wniemiec-io-java/argument-file</url>
     </repository>
@@ -52,6 +52,13 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+	
+	<dependency>
+      <groupId>io.github.wniemiec-io-java</groupId>
+      <artifactId>text-file-manager</artifactId>
+      <version>1.0.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
